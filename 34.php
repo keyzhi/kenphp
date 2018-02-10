@@ -32,9 +32,9 @@
 	 dump($arr0);
 	*/
 
-/*
+
 	$user1=array("uname"=>"渣渣辉","msg"=>"枪支联系电话");
-	if(array_filter($user1,"b")){
+	if(array_filter($user1,"b")!==false){
 		echo "包含非法信息";
 	}else{
 		echo "保存成功";
@@ -46,7 +46,7 @@
 		}
 
 	}
-*/
+
 
 /*
 // $arr1=array("class1"=>"PHP课程","class2"=>"mysql课程","name"=>"后盾");
@@ -55,6 +55,7 @@ $arr0=array_flip($arr1);
 dump($arr0);
 */
 
+/*
 $arr1=array("class1"=>"PHP","class2"=>"PHP","name"=>"后盾");
 // if(array_key_exists("class1",$arr1)){
 // 	echo "存在";
@@ -62,5 +63,5 @@ $arr1=array("class1"=>"PHP","class2"=>"PHP","name"=>"后盾");
 // $arr0=array_keys($arr1);
 $arr0=array_keys($arr1,"PHP");
 dump($arr0);
-
+*/
 
